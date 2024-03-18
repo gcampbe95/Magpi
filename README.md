@@ -21,7 +21,7 @@ Before we start modeling and coding, there are a few questions we have to addres
 - What other parameters do we need to consider for the audio?
   - Refer to auto-tuner documentation
 - Will it be possible to accommodate artistic variation (such as vibrato) later in the process?
-  - Since pitches are defined as a range of frequencies, it should be possible to accommodate reasonably narrow vibrato.What are other ways we can consider adapting to human musicians?
+  - Since pitches are defined as a range of frequencies, it should be possible to accommodate reasonably narrow vibrato. What are other ways we can consider adapting to human musicians?
 - What frequency range is ideal for our hardware? 
   - Refer to auto-tuner
 - What margin of error is acceptable for a transcription to be considered correct?
