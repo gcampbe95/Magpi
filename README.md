@@ -35,37 +35,46 @@ We also have to think about how we plan to keep a project with such an expansive
 ### **Our Timeline:**
 
 **2/26** - *We will spend this week planning and outlining our vision for the project in general terms*
+
 Whole Team: Brainstorm and research, record initial questions
 
 **3/4** - *This week, we will answer the questions outlined in our initial plan, create specific sketches, and start prototyping our bot* 
+
 Whole Team: Create sketches, finalize design, start prototype, answer preliminary questions
 
 **3/11** - *This week is dedicated to finalizing planning. We’ll transfer our outline materials to a repository, continue work on our prototype, and finalize our schedule*
+
 Build: Outline bill of materials 
 Code: Write pseudocode
 Whole Team: Finalize schedule, transfer planning to a repository 
 
 **3/18** - *We’re using this week to start the process in earnest. We’ll get our pitch identification up-and-running in Arduino and started in Circuitpython, finish our prototype, and begin the CAD*
+
 Build: Finish prototype, begin CAD
 Code: Start pitch-identification Arduino translation
 
 **3/25** - *Overview*
+
 Build: ABC
 Code: ABC
 
 **4/1** - *Overview*
+
 Build: ABC
 Code: ABC
 
 **4/8** - *Overview*
+
 Build: ABC
 Code: ABC
 
 **4/15** - *Overview*
+
 Build: ABC
 Code: ABC
 
 **4/22** - *Overview*
+
 Build: ABC
 Code: ABC
 
