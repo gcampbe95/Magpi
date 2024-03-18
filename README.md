@@ -1,6 +1,6 @@
 # Robot-Arm
 
-###**The Plan:**
+### **The Plan:**
 
 Our initial goal for the robot arm project is to build an arm that can accurately transcribe a short melody onto a sheet of paper. In service of consistency, these melodies will be composed of quarter notes from a specified frequency range, played in 4/4 time at a constant tempo. During the testing stages, these melodies will also be rendered by a computer to ensure absolute consistency, adequate volume, and the convenience of testing in the lab. 
 
@@ -10,7 +10,7 @@ If time allows, we hope to expand our bot’s capabilities in some of the follow
 - Accommodating simple variations in note length (half and eighth notes)
 - A more accurate machine-learning based approach the pitch identification (using TinyML)
 
-###**Pre-Project Considerations:**
+### **Pre-Project Considerations:**
 
 Before we start modeling and coding, there are a few questions we have to address:
 
@@ -32,7 +32,7 @@ We also have to think about how we plan to keep a project with such an expansive
 - Daily check-ins to share goals for the day, challenges, and necessary updates to any of our planning documents
 - Weekly reflections on our progress, to be recorded for inclusion in our final documentation
 
-###**Our Timeline:**
+### **Our Timeline:**
 
 **2/26** - *We will spend this week planning and outlining our vision for the project in general terms*
 Whole Team: Brainstorm and research, record initial questions
@@ -69,7 +69,7 @@ Code: ABC
 Build: ABC
 Code: ABC
 
-###**Safety Concerns:**
+### **Safety Concerns:**
 Safety is our first priority, and throughout the process of building our robot arm we will take every precaution to ensure that our robot does not become sentient. Some potential concerns and countermeasures include:
 - The robot develops consciousness and starts attacking because it hates the music we play
   - We will include a power button
@@ -80,7 +80,7 @@ Safety is our first priority, and throughout the process of building our robot a
 - We accidentally short circuit our project
   - Create thorough wiring diagrams beforehand 
 
-###**Initial Build Questions:**
+### **Initial Build Questions:**
 Since our robot will essentially be drawing the same shape in different positions, our actual writing function can be pretty basic. Depending on how professional we want our final transcriptions to appear, a few of our options for representing a note include:
 - A diagonal dash with a stem
 - A circle/dot with a stem
@@ -90,7 +90,7 @@ I’m personally inclined toward the first or third option. The dash-and-stem mo
 
 From what I’ve seen, robots tend to have trouble with pressure. To avoid issues with this, I plan to include pieces dedicated to aligning the paper at the same depth and position relative to the arm each time. This should also make code easier, since the lines and spaces will be defined by a constant position and not by the robot’s visual analysis of a staff. The soft marker tip should also accommodate slight variations in height.
 
-###**Initial Code Questions:**
+### **Initial Code Questions:**
 Considering Gudrun already created (with absolute success) an auto-tuning project using a microphone and servo, we have a basis for both our code and build. In her code, she has a series of frequency ranges that correspond to different notes. Hence, I’m not worried about the implementation of our pitch reader.
 The more intimidating code of our project will be the drawing. To adhere to KISS (keep it simple, stupid), we will forgo our initial vision recognition idea.
 This prompts the following questions:
