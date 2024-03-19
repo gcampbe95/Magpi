@@ -117,5 +117,8 @@ This prompts the following questions:
 - How will we draw the stem? Should this be a separate subsystem to the oval-drawer?
   - The same system will be responsible for the entire note. If we use a pen, the motion needed to draw the note will be a small-scale version of the motion that places the note relative to the staff. If we go with a stamp, we’ll only need the latter motion.  
 
+### **Bill of Materials**
+
+### **Pseudocode**
 
 
