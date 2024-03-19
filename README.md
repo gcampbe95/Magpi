@@ -56,23 +56,23 @@ Build: Finish prototype, begin CAD
 
 Code: Start pitch-identification Arduino translation
 
-**3/25** - *Overview*
+**3/25** - *Goals for this week include getting pitch identification functional in VS Code and continuing with our CAD modeling*
 
-Build: ABC
+Build: Continue modeling in Onshape
 
-Code: ABC
+Code: Get VS Code pitch-reader working
 
-**4/1** - *Overview*
+**4/1** - *This week build will continue modeling and code will start programming the drawing motion*
 
-Build: ABC
+Build: Continue modeling in Onshape
 
-Code: ABC
+Code: Research corexy coding
 
-**4/8** - *Overview*
+**4/8** - *We're using this week to begin fabricating and continue coding smaller motions*
 
-Build: ABC
+Build: Finish initial model, start fabricating
 
-Code: ABC
+Code: Start code for note-drawing motion
 
 **4/15** - *Overview*
 
@@ -85,6 +85,50 @@ Code: ABC
 Build: ABC
 
 Code: ABC
+
+**4/29** - *Overview*
+
+Build: ABC
+
+Code: ABC
+
+**5/6** - *Overview*
+
+Build: ABC
+
+Code: ABC
+
+*5/10 - Gudrun takes APUSH exam
+
+**5/13** - *Overview*
+
+Build: ABC
+
+Code: ABC
+
+*5/13 - Gudrun takes Calc AB exam
+*5/14 - Gudrun takes Lang exam
+*5/16 - Gudrun takes Spanish Lang exam
+*5/17 - Gudrun takes Physics II exam
+
+**5/20** - *Overview*
+
+Build: ABC
+
+Code: ABC
+
+**5/27** - *Overview*
+
+Build: ABC
+
+Code: ABC
+
+**6/3** - *Overview*
+
+Build: ABC
+
+Code: ABC
+
 
 ### **Safety Concerns:**
 Safety is our first priority, and throughout the process of building our robot arm we will take every precaution to ensure that our robot does not become sentient. Some potential concerns and countermeasures include:
