@@ -45,37 +45,45 @@ Whole Team: Create sketches, finalize design, start prototype, answer preliminar
 **3/11** - *This week is dedicated to finalizing planning. We’ll transfer our outline materials to a repository, continue work on our prototype, and finalize our schedule*
 
 Build: Outline bill of materials 
+
 Code: Write pseudocode
+
 Whole Team: Finalize schedule, transfer planning to a repository 
 
 **3/18** - *We’re using this week to start the process in earnest. We’ll get our pitch identification up-and-running in Arduino and started in Circuitpython, finish our prototype, and begin the CAD*
 
 Build: Finish prototype, begin CAD
+
 Code: Start pitch-identification Arduino translation
 
 **3/25** - *Overview*
 
 Build: ABC
+
 Code: ABC
 
 **4/1** - *Overview*
 
 Build: ABC
+
 Code: ABC
 
 **4/8** - *Overview*
 
 Build: ABC
+
 Code: ABC
 
 **4/15** - *Overview*
 
 Build: ABC
+
 Code: ABC
 
 **4/22** - *Overview*
 
 Build: ABC
+
 Code: ABC
 
 ### **Safety Concerns:**
