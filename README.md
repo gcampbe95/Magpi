@@ -104,6 +104,9 @@ Build: ABC
 
 Code: ABC
 
+*5/6 - Alexis takes AP Gov exam
+*5/7 - Alexis takes AP Stats exam
+*5/8 - Alexis takes AP Lit exam
 *5/10 - Gudrun takes APUSH exam
 
 **5/13** - *Overview*
@@ -114,8 +117,8 @@ Code: ABC
 
 *5/13 - Gudrun takes Calc AB exam
 *5/14 - Gudrun takes Lang exam
-*5/16 - Gudrun takes Spanish Lang exam
-*5/17 - Gudrun takes Physics II exam
+*5/16 - Gudrun takes Spanish Lang exam, Alexis takes AP Bio exam
+*5/17 - Alexis & Gudrun take Physics II exam
 
 **5/20** - *Overview*
 
@@ -168,6 +171,19 @@ This prompts the following questions:
   - The same system will be responsible for the entire note. If we use a pen, the motion needed to draw the note will be a small-scale version of the motion that places the note relative to the staff. If we go with a stamp, we’ll only need the latter motion.  
 
 ### **Bill of Materials**
+
+2 x 8mm Steel Rod 350mm long (Amazon)
+2 x 8mm Steel Rod 250mm long (Amazon)
+2 x 8mm Steel Rod 100mm long (Amazon)
+2 x 1/4" Wooden Dowels 
+
+1 x 7mm Spring (Backroom)
+10 x LM8UU Slider Bearings (Amazon)
+GT2 Belt 1.2m (Backroom)
+2 x GT2 Stepper Motor Pulley (Backroom)
+
+3D Printed Parts
+
 
 ### **Pseudocode**
 
