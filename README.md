@@ -173,8 +173,11 @@ This prompts the following questions:
 ### **Bill of Materials**
 
 2 x 8mm Steel Rod 350mm long (Amazon)
+
 2 x 8mm Steel Rod 250mm long (Amazon)
+
 2 x 8mm Steel Rod 100mm long (Amazon)
+
 2 x 1/4" Wooden Dowels 
 
 1 x 7mm Spring (Backroom)
