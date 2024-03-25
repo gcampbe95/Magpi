@@ -180,10 +180,15 @@ This prompts the following questions:
 
 2 x 1/4" Wooden Dowels 
 
+
 1 x 7mm Spring (Backroom)
+
 10 x LM8UU Slider Bearings (Amazon)
+
 GT2 Belt 1.2m (Backroom)
+
 2 x GT2 Stepper Motor Pulley (Backroom)
+
 
 3D Printed Parts
 
