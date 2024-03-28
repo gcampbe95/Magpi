@@ -1,17 +1,17 @@
 # Robot-Arm
-[Overview]()
+[Overview](#The_Plan)
 
-[Pre-Project Considerations]()
+[Pre-Project Considerations](#Pre-Project_Considerations)
 
-[Timeline]()
+[Timeline](#Our_Timeline)
 
-[Safety]()
+[Safety](#Safety_Concerns)
 
-[Build Brainstorm]()
+[Build Brainstorm](#Initial_Build_Questions)
 
-[Code Brainstorm]()
+[Code Brainstorm](#Intitial_Code_Questions)
 
-[Bill of Materials]()
+[Bill of Materials](#Bill_of_Materials)
 
 
 ### **The Plan:**
@@ -22,7 +22,7 @@ If time allows, we hope to expand our bot’s capabilities in some of the follow
 - Transcribing melodies in different meters and tempos 
 - Identifying pitches from a more diverse range of sources
 - Accommodating simple variations in note length (half and eighth notes)
-- A more accurate machine-learning based approach the pitch identification (using TinyML)
+- A more accurate machine-learning-based approach the pitch identification (using TinyML)
 
 ### **Pre-Project Considerations:**
 
