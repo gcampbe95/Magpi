@@ -156,7 +156,7 @@ Safety is our first priority, and throughout the process of building our robot a
   - C’est la vie
   - There’s nothing we can do
 - We accidentally short circuit our project
-  - Create thorough wiring diagrams beforehand 
+  - We will create thorough wiring diagrams beforehand, and double-check our circuit with those before connecting to power
 
 ### **Initial Build Questions:**
 Since our robot will essentially be drawing the same shape in different positions, our actual writing function can be pretty basic. Depending on how professional we want our final transcriptions to appear, a few of our options for representing a note include:
