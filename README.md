@@ -1,10 +1,18 @@
 # Robot-Arm
-[Overview]()!
-[Pre-Project Considerations]()!
-[Timeline]()!
-[Safety]()!
-[Build Brainstorm]()!
-[Code Brainstorm]()!
+[Overview]()
+
+[Pre-Project Considerations]()
+
+[Timeline]()
+
+[Safety]()
+
+[Build Brainstorm]()
+
+[Code Brainstorm]()
+
+[Bill of Materials]()
+
 
 ### **The Plan:**
 
