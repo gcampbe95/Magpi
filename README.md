@@ -4,7 +4,7 @@
 * [Timeline](#Our_Timeline)
 * [Safety](#Safety_Concerns)
 * [Build Brainstorm](#Initial_Build_Questions)
-* [Code Brainstorm](#Intitial_Code_Questions)
+* [Code Brainstorm](#Initial_Code_Questions)
 * [Bill of Materials](#Bill_of_Materials)
 
 
