@@ -190,8 +190,11 @@ GT2 Belt 1.2m (Backroom)
 
 2 x GT2 Stepper Motor Pulley (Backroom)
 
-
 3D Printed Parts
+
+### **Weekly Updates**
+
+4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is inconveniently broken (for unapparent reasons) so hopefully I can fix it with versions sometime this week.
 
 
 ### **Pseudocode**
