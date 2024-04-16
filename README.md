@@ -68,25 +68,25 @@ Code: Start pitch-identification Arduino translation
 
 Build: Continue modeling in Onshape
 
-Code: Get VS Code pitch-reader working
+Code: Continue working on VS Code pitch reader
 
 **4/1** - *This week build will continue modeling and code will start programming the drawing motion*
 
 Build: Continue modeling in Onshape
 
-Code: Research corexy coding
+Code: Get VS Code pitch reader working
 
 **4/8** - *We're using this week to begin fabricating and continue coding smaller motions*
 
-Build: Finish initial model, start fabricating
+Build: Finish frame, start modeling pen holder
 
-Code: Start code for note-drawing motion
+Code: Research coding motion with corexy
 
 **4/15** - *Overview*
 
-Build: ABC
+Build: Update documentation, fix disappearing assembly
 
-Code: ABC
+Code: Continue corexy research
 
 **4/22** - *Overview*
 
@@ -108,7 +108,6 @@ Code: ABC
 
 *5/6 - Alexis takes AP Gov exam
 *5/7 - Alexis takes AP Stats exam
-*5/8 - Alexis takes AP Lit exam
 *5/10 - Gudrun takes APUSH exam
 
 **5/13** - *Overview*
@@ -120,7 +119,7 @@ Code: ABC
 *5/13 - Gudrun takes Calc AB exam
 *5/14 - Gudrun takes Lang exam
 *5/16 - Gudrun takes Spanish Lang exam, Alexis takes AP Bio exam
-*5/17 - Alexis & Gudrun take Physics II exam
+*5/17 - Gudrun take Physics II exam
 
 **5/20** - *Overview*
 
