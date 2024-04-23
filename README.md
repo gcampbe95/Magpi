@@ -6,6 +6,7 @@
 * [Build Brainstorm](#Initial_Build_Questions)
 * [Code Brainstorm](#Initial_Code_Questions)
 * [Bill of Materials](#Bill_of_Materials)
+* [Weekly Updates](#Weekly_Updates)
 
 
 ### **The_Plan:**
@@ -192,11 +193,8 @@ GT2 Belt 1.2m (Backroom)
 
 3D Printed Parts
 
-### **Weekly Updates**
+### **Weekly_Updates**
 
-4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is inconveniently broken (for unapparent reasons) so hopefully I can fix it with versions sometime this week.
-
-
-### **Pseudocode**
-
+4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is mysteriously broken so hopefully I can fix it with versions sometime this week.
+4/23 - Build: I made a new assembly that will hopefully be immune to the disappearing issue. I finished the mount for the pen holder and am starting the pen holder itself, which is a little complicated. I'm also using today to double-check all my models against their real-world counterparts (dummy steppers, rods, bolts, holes)
 
