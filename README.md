@@ -1,4 +1,5 @@
-# Magpi Magic Mapper
+# Magpi 
+## Magic Mapper
 * [Overview](#The_Plan)
 * [Pre-Project Considerations](#Pre-Project_Considerations)
 * [Timeline](#Our_Timeline)
