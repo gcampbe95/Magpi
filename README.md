@@ -1,3 +1,4 @@
+![](https://github.com/gcampbe95/Magpi/blob/main/M%20(1).png)
 # Magpi 
 ### Magic Mapper
 * [Overview](#The_Plan)
