@@ -64,80 +64,80 @@ Build: Finish prototype, begin CAD
 
 Code: Start pitch-identification Arduino translation
 
-**3/25** - *Goals for this week include getting pitch identification functional in VS Code and continuing with our CAD modeling*
+**3/25** - *Goals for this week include making progress with our pitch reader in VS Code and continuing with our CAD modeling*
 
 Build: Continue modeling in Onshape
 
 Code: Continue working on VS Code pitch reader
 
-**4/1** - *This week build will continue modeling and code will start programming the drawing motion*
+**4/1** - *This week build will continue modeling and code will get the pitch reader functional*
 
 Build: Continue modeling in Onshape
 
 Code: Get VS Code pitch reader working
 
-**4/8** - *We're using this week to begin fabricating and continue coding smaller motions*
+**4/8** - *We're using this week to begin finish the frame and continue code research*
 
 Build: Finish frame, start modeling pen holder
 
 Code: Research coding motion with corexy
 
-**4/15** - *Overview*
+**4/15** - *This week we're troubleshooting our CAD and fine-tuning the pitch reader*
 
 Build: Update documentation, fix disappearing assembly
 
 Code: Continue corexy research
 
-**4/22** - *Overview*
+**4/22** - *Goals this week include starting our motor code and getting our CAD model ready for fabrication*
 
-Build: ABC
+Build: Double-check all measurements with real parts, start pen mount
 
-Code: ABC
+Code: Start coding motors and begin work on circle motion
 
-**4/29** - *Overview*
+**4/29** - *We're using this week to continue corexy research and polish our CAD*
 
-Build: ABC
+Build: Finish pen mount, add final touches
 
-Code: ABC
+Code: Get motors operational, start polar code
 
-**5/6** - *Overview*
+**5/6** - *This week we hope to finish our CAD model and have larger corexy motions up and running*
 
-Build: ABC
+Build: Finish CAD model and prepare for fabrication
 
-Code: ABC
+Code: Continue work on circle motion
 
 *5/6 - Alexis takes AP Gov exam
 *5/7 - Alexis takes AP Stats exam
 *5/10 - Gudrun takes APUSH exam
 
-**5/13** - *Overview*
+**5/13** - *This will be a code-focussed week, and we'll be working to get corexy completely operational before Alexis graduates*
 
-Build: ABC
+Build: NA
 
-Code: ABC
+Code: Combine corexy motions with functions
 
 *5/13 - Gudrun takes Calc AB exam
 *5/14 - Gudrun takes Lang exam
 *5/16 - Gudrun takes Spanish Lang exam, Alexis takes AP Bio exam
 *5/17 - Gudrun take Physics II exam
 
-**5/20** - *Overview*
+**5/20** - *This week we're fabricating and testing*
 
-Build: ABC
+Build: Fabricate!
 
-Code: ABC
+Code: Test!
 
-**5/27** - *Overview*
+**5/27** - *We're using this week to troubleshoot any issues that arise in testing and begin documentation*
 
-Build: ABC
+Build: Continue testing
 
-Code: ABC
+Code: RIP Alexis
 
-**6/3** - *Overview*
+**6/3** - *We're sepnding our (imperial we, Alexis is gone) final week on documentation*
 
-Build: ABC
+Build: Document
 
-Code: ABC
+Code: RIP Alexis
 
 
 ### **Safety_Concerns:**
