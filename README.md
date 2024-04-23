@@ -1,4 +1,4 @@
-![](https://github.com/gcampbe95/Magpi/blob/main/M%20(1).png)
+![](https://github.com/gcampbe95/Magpi/blob/main/Untitled%20design.png)
 
 * [Overview](#The_Plan)
 * [Pre-Project Considerations](#Pre-Project_Considerations)
