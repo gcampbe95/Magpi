@@ -107,9 +107,9 @@ Build: Finish CAD model and prepare for fabrication
 
 Code: Continue work on circle motion
 
-*5/6 - Alexis takes AP Gov exam
-*5/7 - Alexis takes AP Stats exam
-*5/10 - Gudrun takes APUSH exam
+* 5/6 - Alexis takes AP Gov exam
+* 5/7 - Alexis takes AP Stats exam
+* 5/10 - Gudrun takes APUSH exam
 
 **5/13** - *This will be a code-focussed week, and we'll be working to get corexy completely operational before Alexis graduates*
 
@@ -117,10 +117,10 @@ Build: NA
 
 Code: Combine corexy motions with functions
 
-*5/13 - Gudrun takes Calc AB exam
-*5/14 - Gudrun takes Lang exam
-*5/16 - Gudrun takes Spanish Lang exam, Alexis takes AP Bio exam
-*5/17 - Gudrun take Physics II exam
+* 5/13 - Gudrun takes Calc AB exam
+* 5/14 - Gudrun takes Lang exam
+* 5/16 - Gudrun takes Spanish Lang exam, Alexis takes AP Bio exam
+* 5/17 - Gudrun take Physics II exam
 
 **5/20** - *This week we're fabricating and testing*
 
@@ -195,6 +195,6 @@ GT2 Belt 1.2m (Backroom)
 
 ### **Weekly_Updates**
 
-4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is mysteriously broken so hopefully I can fix it with versions sometime this week.
-4/23 - Build: I made a new assembly that will hopefully be immune to the disappearing issue. I finished the mount for the pen holder and am starting the pen holder itself, which is a little complicated. I'm also using today to double-check all my models against their real-world counterparts (dummy steppers, rods, bolts, holes)
+* 4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is mysteriously broken so hopefully I can fix it with versions sometime this week.
+* 4/23 - Build: I made a new assembly that will hopefully be immune to the disappearing issue. I finished the mount for the pen holder and am starting the pen holder itself, which is a little complicated. I'm also using today to double-check all my models against their real-world counterparts (dummy steppers, rods, bolts, holes)
 
