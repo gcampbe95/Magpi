@@ -129,15 +129,9 @@ Build: Fabricate!
 
 Code: Test!
 
-**5/27** - *We're using this week to troubleshoot any issues that arise in testing and begin documentation*
+**5/27** - *We're using this week to troubleshoot any issues that arise in testing and finish documentation*
 
 Build: Continue testing
-
-Code: RIP Alexis
-
-**6/3** - *We're sepnding our (imperial we, Alexis is gone) final week on documentation*
-
-Build: Document
 
 Code: RIP Alexis
 
@@ -183,7 +177,6 @@ This prompts the following questions:
 
 2 x 1/4" Wooden Dowels 
 
-
 1 x 7mm Spring (Backroom)
 
 10 x LM8UU Slider Bearings (Amazon)
@@ -199,3 +192,5 @@ GT2 Belt 1.2m (Backroom)
 * 4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is mysteriously broken so hopefully I can fix it with versions sometime this week.
 * 4/23 - Build: I made a new assembly that will hopefully be immune to the disappearing issue. I finished the mount for the pen holder and am starting the pen holder itself, which is a little complicated. I'm also using today to double-check all my models against their real-world counterparts (dummy steppers, rods, bolts, holes)
 
+### **Final_Build**
+Our build for this project was heavily inspired by **[this model](https://www.youtube.com/watch?v=IVgoBncPw4E)**. We ultimately settled on a pen plotter design (our CAD model can be found **[here](https://cvilleschools.onshape.com/documents/f9e96cad35b00365d59784e5/w/c50bc8ac21633ac130774c6d/e/e97623283331c061e6ee782c)**) that uses a belt and two stepper motors to control motion in the x and y directions, and a servo to control z motion, and while we explored the idea of a stamp, we decided a pen would be our writing implement of choice. 
