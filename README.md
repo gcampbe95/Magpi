@@ -13,7 +13,7 @@
 * [Final Video](#Final_Video)
 * [Wiring](#Final_Wiring)
 * [Final Code](#Final_Code)
-* [Reflections](#Reflections)
+* [Reflections](#reflections-and-design-process)
 
 
 
