@@ -8,7 +8,10 @@
 * [Code Brainstorm](#Initial_Code_Questions)
 * [Bill of Materials](#Bill_of_Materials)
 * [Weekly Updates](#Weekly_Updates)
+* [Prototype Video](#Prototype_Video)
 * [Final Build](#Final_Build)
+* [Final Video](#Final_Video)
+* [Wiring](#Final_Wiring)
 * [Final Code](#Final_Code)
 * [Reflections](#Reflections)
 
@@ -127,17 +130,19 @@ Code: Combine corexy motions with functions
 * 5/16 - Gudrun takes Spanish Lang exam, Alexis takes AP Bio exam
 * 5/17 - Gudrun take Physics II exam
 
-**5/20** - *This week we're fabricating and testing*
+**5/20** - *This week we're fabricating*
 
-Build: Fabricate!
+Build: We printed out all the parts and mostly finished assembling the music bot. 
 
-Code: Test!
+Code: Finished the servo code. 
 
 **5/27** - *We're using this week to troubleshoot any issues that arise in testing and finish documentation*
 
-Build: Continue testing
+Build: Drilled holes, inserted belting system, added pen holder. 
 
-Code: RIP Alexis
+Code: Tested out code, added note positioning function. 
+
+Tested and worked!
 
 
 ### **Safety_Concerns:**
@@ -191,11 +196,8 @@ GT2 Belt 1.2m (Backroom)
 
 3D Printed Parts
 
-
-### **Weekly_Updates**
-
-* 4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is mysteriously broken so hopefully I can fix it with versions sometime this week.
-* 4/23 - Build: I made a new assembly that will hopefully be immune to the disappearing issue. I finished the mount for the pen holder and am starting the pen holder itself, which is a little complicated. I'm also using today to double-check all my models against their real-world counterparts (dummy steppers, rods, bolts, holes)
+### **Prototype_Video**
+![](https://github.com/gcampbe95/Magpi/blob/main/protogif.gif)
 
 ### **Final_Build**
 Our build for this project was heavily inspired by **[this model](https://www.youtube.com/watch?v=IVgoBncPw4E)**. We ultimately settled on a pen plotter design (our CAD model can be found **[here](https://cvilleschools.onshape.com/documents/f9e96cad35b00365d59784e5/w/c50bc8ac21633ac130774c6d/e/e97623283331c061e6ee782c)** that uses a belt and two stepper motors to control motion in the x and y directions, and a servo to control z motion.
@@ -211,7 +213,8 @@ Top Real View
 Front Real View
 ![](https://github.com/gcampbe95/Magpi/blob/main/micpic1.png)
 
-### **Video Proof**
+### **Final_Video**
+In this video, we played a sustained A4 note. The pen started at E4. Once the mic picked up the E4 signal, the pen went up and the plotter moved the correct number of spaces to A4. The pen dropped and created a "dot" representing the A4 note. 
 ![](https://github.com/gcampbe95/Magpi/blob/main/micgif.gif)
 
 ### **Final_Wiring**
@@ -378,7 +381,7 @@ Both our engineering and coding skills were stretched with this ambitious projec
 Since our project was heavily inspired by an existing homework bot, the design was less stressful, as we had a guarenteed-to-work model to be inspired off of. We highly recommend to extrapolate existing projects, as not only can this help mitigate scope-creeping but also can raise the limit of what one's project can achieve. However, we still ran into some design issues.
 We had to expand a few holes/slots with a drill, as we did not leave extra spacing (for a realistic fit). In the future, we should make the radius of holes a few percentage points greater. Another issue is we forgot to create holes for one side of the belt, so we had to reprint one part (one reprint total for our entire project). 
 
-The CoreXY system with 2 stepper motors was an unfamiliar mechanism to us. Unforunately, the videos were quite ambigious with how the belting worked. Therefore, we decided to construct a prototype. This was partly due to the ambiguity in the videos, which showed a fixed end was possible. Our prototype, as pictured below, helped us with accurate modeling and understanding how the directionality of the motors affected movement. We highly recommend creating a prototype as it's essential to prevent design errors that would heavily delay/waste progress & resources.  
+The CoreXY system with 2 stepper motors was an unfamiliar mechanism to us. Unforunately, the videos were quite ambigious with how the belting worked. Therefore, we decided to construct a prototype. This was partly due to the ambiguity in the videos, which showed a fixed end was possible. Our prototype, as videoed above, helped us with accurate modeling and understanding how the directionality of the motors affected movement. We highly recommend creating a prototype as it's essential to prevent design errors that would heavily delay/waste progress & resources.  
 We also had an issue with the ends of the belt. In the videos, the ends were "fixed" separately. However, we were only able to get the X motion to somewhat-work by clamping the belts together to create a closed loop. We were never able to understand the discrepancy.
 
 Another thing we learned was KISS (Keep it Simple, Stupid). Since we were crunched for time at the end, we decided to reprint our pen holder without linear motion capability, as the mechanism was a bit complicated to assemble. Rotational motion sufficied as we merely needed to lift the pen off the paper.
