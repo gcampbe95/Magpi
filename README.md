@@ -206,7 +206,16 @@ Front View with Clear View of Pen Holder Mechanism
 ![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(2).png)
 Birdeye View
 ![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(3).png)
+Top Real View
+![](https://github.com/gcampbe95/Magpi/blob/main/micpic2.png)
+Front Real View
+![](https://github.com/gcampbe95/Magpi/blob/main/micpic1.png)
 
+### **Video Proof**
+![](https://github.com/gcampbe95/Magpi/blob/main/micgif.gif)
+
+### **Final_Wiring**
+![](https://github.com/gcampbe95/Magpi/blob/main/micwiring.png)
 
 ### **Final_Code**
 ```python
@@ -362,4 +371,18 @@ while True:
 ```
 
 ### **Reflections and Design Process**
+
+Both our engineering and coding skills were stretched with this ambitious project. Below is a collection of issues we encountered in both domains, as well as our corresponding reflections to the problem solving process.
+
+**Build/CAD**: 
+Since our project was heavily inspired by an existing homework bot, the design was less stressful, as we had a guarenteed-to-work model to be inspired off of. We highly recommend to extrapolate existing projects, as not only can this help mitigate scope-creeping but also can raise the limit of what one's project can achieve. However, we still ran into some design issues.
+We had to expand a few holes/slots with a drill, as we did not leave extra spacing (for a realistic fit). In the future, we should make the radius of holes a few percentage points greater. Another issue is we forgot to create holes for one side of the belt, so we had to reprint one part (one reprint total for our entire project). 
+
+The CoreXY system with 2 stepper motors was an unfamiliar mechanism to us. Unforunately, the videos were quite ambigious with how the belting worked. Therefore, we decided to construct a prototype. This was partly due to the ambiguity in the videos, which showed a fixed end was possible. Our prototype, as pictured below, helped us with accurate modeling and understanding how the directionality of the motors affected movement. We highly recommend creating a prototype as it's essential to prevent design errors that would heavily delay/waste progress & resources.  
+We also had an issue with the ends of the belt. In the videos, the ends were "fixed" separately. However, we were only able to get the X motion to somewhat-work by clamping the belts together to create a closed loop. We were never able to understand the discrepancy.
+
+Another thing we learned was KISS (Keep it Simple, Stupid). Since we were crunched for time at the end, we decided to reprint our pen holder without linear motion capability, as the mechanism was a bit complicated to assemble. Rotational motion sufficied as we merely needed to lift the pen off the paper.
+
+**Code**:
+As a conventional CoreXY system, there was little issue with translating motor motion to XY movement. To simplify the code, we decided to create a custom Motor class, as adapting the stepper motor code from a previous assignment proved tedious. We highly recommend to create classes if one has multiple instances of objects that perform similar functions. We had a little trouble getting the frequencies collected to correspond with the right note. It took a few days of iterating different buffer size and sample rate values to get the 4th octave to correspond correctly. We used dicitonaries to easily map the notes to desired positions on the pen plotter. 
 
