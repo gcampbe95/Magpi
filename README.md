@@ -191,6 +191,7 @@ GT2 Belt 1.2m (Backroom)
 
 3D Printed Parts
 
+
 ### **Weekly_Updates**
 
 * 4/16 - Build : I'm finished with the framework and starting work on the pen holder, which is a little more complicated since it has to accomodate variations in angle and pen size, as well as incorporate a way to control the pen's Z motion. My assembly is mysteriously broken so hopefully I can fix it with versions sometime this week.
@@ -198,10 +199,167 @@ GT2 Belt 1.2m (Backroom)
 
 ### **Final_Build**
 Our build for this project was heavily inspired by **[this model](https://www.youtube.com/watch?v=IVgoBncPw4E)**. We ultimately settled on a pen plotter design (our CAD model can be found **[here](https://cvilleschools.onshape.com/documents/f9e96cad35b00365d59784e5/w/c50bc8ac21633ac130774c6d/e/e97623283331c061e6ee782c)** that uses a belt and two stepper motors to control motion in the x and y directions, and a servo to control z motion.
+
+Isometric View
 ![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(1).png)
+Front View with Clear View of Pen Holder Mechanism
 ![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(2).png)
+Birdeye View
 ![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(3).png)
 
-### **Final_Code**
 
-### **Reflections**
+### **Final_Code**
+```python
+import time
+import board
+from analogio import AnalogIn
+import ulab.numpy as np
+import digitalio
+from adafruit_motor import stepper, servo
+import math
+import pwmio
+
+DELAY = 0.01 # delay between each step 
+STEPS = 100 # number of steps for half a rotation
+
+# servo for moving pen up and down 
+pwm = pwmio.PWMOut(board.D11, duty_cycle=2 ** 15, frequency=50)
+penServo = servo.Servo(pwm)
+
+# motor class, easy control of stepper motor
+class Motor:
+    def __init__(self, A1pin, A2pin, B1pin, B2pin):  
+        self.coils = ( # the four metal coils in motor
+            digitalio.DigitalInOut(getattr(board, f'D{A1pin}')),  
+            digitalio.DigitalInOut(getattr(board, f'D{A2pin}')), 
+            digitalio.DigitalInOut(getattr(board, f'D{B1pin}')),
+            digitalio.DigitalInOut(getattr(board, f'D{B2pin}')), 
+        )
+
+        for coil in self.coils: # set direction of each coil
+            coil.direction = digitalio.Direction.OUTPUT
+
+        # stepper motor instance, allows for easy control of each coil
+        self.motor = stepper.StepperMotor(self.coils[0], self.coils[1], self.coils[2], self.coils[3], microsteps=None)
+    
+    # step function
+    def step(self, steps, direction=stepper.FORWARD):
+        for _ in range(abs(steps)):
+            self.motor.onestep(direction=direction, style=stepper.DOUBLE)
+            time.sleep(DELAY)
+
+# init the 2 stepper motors
+motorA = Motor(7, 8, 10, 9)
+motorB = Motor(5, 6, 3, 4)
+
+# deprecated, didn't use, was to draw a circle using polar math
+def draw_circle(radius, num_steps):
+    angle_increment = (2 * math.pi) / num_steps
+    for i in range(num_steps):
+        angle = i * angle_increment
+        x = radius * np.cos(angle)
+        y = radius * np.sin(angle)
+
+        motorA_steps = int(x + y)
+        motorB_steps = int(x - y)
+
+        motorA.step(abs(motorA_steps), stepper.FORWARD if motorA_steps > 0 else stepper.BACKWARD)
+        motorB.step(abs(motorB_steps), stepper.FORWARD if motorB_steps > 0 else stepper.BACKWARD)
+
+
+# list of notes detectable
+NOTE_NAMES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
+
+# convert frequency into note name
+# source: https://www.johndcook.com/blog/2016/02/10/musical-pitch-notation/
+def freq_to_note(frequency):
+    if frequency == 0:  # Avoid log of zero
+        return "None"
+    print(frequency)
+    A4 = 440
+    C0 = A4 * pow(2, -4.75) # calc half steps to C0
+    h = round(12 * np.log2(frequency / C0)) #
+    octave = h // 12
+    n = h % 12
+    return NOTE_NAMES[n] + str(octave)
+    
+buffer_size = 4096  # power of 2
+buffer = np.zeros(buffer_size)  # init buffer
+
+mic_pin = AnalogIn(board.A0)
+
+# collect frequency
+# adapted from: https://learn.adafruit.com/sound-reactive-neopixel-peace-pendant/circuitpython-code
+def collect_note():
+    for i in range(buffer_size): # collect samples
+        sample = mic_pin.value
+        buffer[i] = (sample / 65535.0) * 3.3 - 1.65  # range centered at 0
+    
+    # perform FFT
+    r, c = np.fft.fft(buffer)
+    magnitudes = np.sqrt(r * r + c * c)
+
+    # find the dominant frequency
+    dominant_freq_index = np.argmax(magnitudes[1:]) + 1  # ignore the DC component
+    sample_rate = 10000 
+    frequency_resolution = sample_rate / buffer_size
+    dominant_frequency = dominant_freq_index * frequency_resolution
+
+    # convert to note
+    note = freq_to_note(dominant_frequency)
+    return dominant_frequency, note
+
+# dictionary of musical notes mapped to positions
+note_steps = {
+    'C4': 0,
+    'D4': 3,
+    'E4': 6,
+    'F4': 9,
+    'G4': 12,
+    'A4': 15,
+    'B4': 18,
+    'C5': 21
+}
+
+# moves pen to specific note
+def move_to_note(current_note, target_note):
+    current_pos = note_steps[current_note]
+    target_pos = note_steps[target_note]
+    steps_to_move = target_pos - current_pos # # of steps to move to get to new note
+    
+    directionA = stepper.FORWARD if steps_to_move > 0 else stepper.BACKWARD
+    directionB = stepper.BACKWARD if steps_to_move > 0 else stepper.FORWARD
+    print(steps_to_move)
+    
+    # move the motors the correct number of steps, instead of asyncrohonous just small steps iterated
+    for i in range(10):
+        motorA.step(abs(steps_to_move), directionA)
+        motorB.step(abs(steps_to_move), directionB)
+    print(f"Moved from {current_note} to {target_note}")
+
+# start on first line 
+current_note = 'E4'
+
+# main loop
+while True:
+    # collect note
+    dominant_frequency, note = collect_note()
+    print(f"Dominant frequency: {dominant_frequency:.2f} Hz, Note: {note}\n")
+    note.replace('#', '') # ignore # since we dont plot that
+    
+    # dont plot notes out of range
+    if note not in note_steps:
+        print(f"Error: '{note}' is out of range.")
+        continue
+    
+    penServo.angle = 40 # put pen up
+    move_to_note(current_note, note) # move to note recognized
+    time.sleep(1) 
+    
+    current_note = note
+    penServo.angle = 0 # put pen down, stamps circle
+    time.sleep(3)
+```
+
+### **Reflections and Design Process**
+
