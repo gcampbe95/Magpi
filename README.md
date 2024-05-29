@@ -202,16 +202,36 @@ GT2 Belt 1.2m (Backroom)
 ### **Final_Build**
 Our build for this project was heavily inspired by **[this model](https://www.youtube.com/watch?v=IVgoBncPw4E)**. We ultimately settled on a pen plotter design (our CAD model can be found **[here](https://cvilleschools.onshape.com/documents/f9e96cad35b00365d59784e5/w/c50bc8ac21633ac130774c6d/e/e97623283331c061e6ee782c)** that uses a belt and two stepper motors to control motion in the x and y directions, and a servo to control z motion.
 
-Isometric View
-![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(1).png)
-Front View with Clear View of Pen Holder Mechanism
-![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(2).png)
-Birdeye View
-![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(3).png)
-Top Real View
-![](https://github.com/gcampbe95/Magpi/blob/main/micpic2.png)
-Front Real View
-![](https://github.com/gcampbe95/Magpi/blob/main/micpic1.png)
+<figure>
+  <center>
+    <figcaption>Isometric View</figcaption>
+    <img src="https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(1).png" width="60%">
+  </center>
+</figure>
+<figure>
+  <center>
+    <figcaption>Front View with Clear View of Pen Holder Mechanism</figcaption>
+    <img src="https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(2).png" width="60%">
+  </center>
+</figure>
+<figure>
+  <center>
+    <figcaption>Birdeye View</figcaption>
+    <img src="https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(3).png" width="60%">
+  </center>
+</figure>
+<figure>
+  <center>
+    <figcaption>Top Real View</figcaption>
+    <img src="https://github.com/gcampbe95/Magpi/blob/main/micpic2.png" width="60%">
+  </center>
+</figure>
+<figure>
+  <center>
+    <figcaption>Front Real View</figcaption>
+    <img src="https://github.com/gcampbe95/Magpi/blob/main/micpic1.png" width="60%">
+  </center>
+</figure>
 
 ### **Final_Video**
 In this video, we played a sustained A4 note. The pen started at E4. Once the mic picked up the E4 signal, the pen went up and the plotter moved the correct number of spaces to A4. The pen dropped and created a "dot" representing the A4 note. 
