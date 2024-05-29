@@ -197,7 +197,7 @@ GT2 Belt 1.2m (Backroom)
 * 4/23 - Build: I made a new assembly that will hopefully be immune to the disappearing issue. I finished the mount for the pen holder and am starting the pen holder itself, which is a little complicated. I'm also using today to double-check all my models against their real-world counterparts (dummy steppers, rods, bolts, holes)
 
 ### **Final_Build**
-Our build for this project was heavily inspired by **[this model](https://www.youtube.com/watch?v=IVgoBncPw4E)**. We ultimately settled on a pen plotter design (our CAD model can be found **[here](https://cvilleschools.onshape.com/documents/f9e96cad35b00365d59784e5/w/c50bc8ac21633ac130774c6d/e/e97623283331c061e6ee782c)**) that uses a belt and two stepper motors to control motion in the x and y directions, and a servo to control z motion.
+Our build for this project was heavily inspired by **[this model](https://www.youtube.com/watch?v=IVgoBncPw4E)**. We ultimately settled on a pen plotter design (our CAD model can be found **[here](https://cvilleschools.onshape.com/documents/f9e96cad35b00365d59784e5/w/c50bc8ac21633ac130774c6d/e/e97623283331c061e6ee782c)** that uses a belt and two stepper motors to control motion in the x and y directions, and a servo to control z motion.
 ![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(1).png)
 ![](https://github.com/gcampbe95/Magpi/blob/main/Magpi%20Assembly%20(2).png))
 
