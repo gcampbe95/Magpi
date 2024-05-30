@@ -395,11 +395,13 @@ while True:
 
 ### **Reflections and Design Process**
 
-Both our engineering and coding skills were stretched with this ambitious project. Below is a collection of issues we encountered in both domains, as well as our corresponding reflections to the problem solving process.
+Both our engineering and coding skills were stretched with this ambitious project. Below is a collection of issues we encountered in both domains, as well as our corresponding reflections on the problem-solving process.
 
 **Build/CAD**: 
-Since our project was heavily inspired by an existing homework bot, the design was less stressful, as we had a guarenteed-to-work model to be inspired off of. We highly recommend to extrapolate existing projects, as not only can this help mitigate scope-creeping but also can raise the limit of what one's project can achieve. However, we still ran into some design issues.
+Modeling our project after an existing pen plotter bot allowed us to keep the design process simple. Looking to other models for guidance helped us regulate the scope of our ambitious project and allowed us to focus on functionality instead of re-inventinng the wheel. However, we still ran into some design issues.
 We had to expand a few holes/slots with a drill, as we did not leave extra spacing (for a realistic fit). In the future, we should make the radius of holes a few percentage points greater. Another issue is we forgot to create holes for one side of the belt, so we had to reprint one part (one reprint total for our entire project). 
+
+Modeling our project after an existing pen plotter bot allowed us to keep the design process simple. Looking to other models for guidance helped us regulate the scope of our ambitious project and allowed us to focus on functionality instead of re-inventinng the wheel. 
 
 The CoreXY system with 2 stepper motors was an unfamiliar mechanism to us. Unforunately, the videos were quite ambigious with how the belting worked. Therefore, we decided to construct a prototype. This was partly due to the ambiguity in the videos, which showed a fixed end was possible. Our prototype, as videoed above, helped us with accurate modeling and understanding how the directionality of the motors affected movement. We highly recommend creating a prototype as it's essential to prevent design errors that would heavily delay/waste progress & resources.  
 We also had an issue with the ends of the belt. In the videos, the ends were "fixed" separately. However, we were only able to get the X motion to somewhat-work by clamping the belts together to create a closed loop. We were never able to understand the discrepancy.
