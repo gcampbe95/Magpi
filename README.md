@@ -198,6 +198,8 @@ GT2 Belt 1.2m (Backroom)
 
 ### **Prototype_Video**
 ![](https://github.com/gcampbe95/Magpi/blob/main/protogif.gif)
+an early sketch:
+![](https://github.com/gcampbe95/Magpi/blob/main/IMG_4347.jpg)
 
 ### **Final_Build**
 Our build for this project was heavily inspired by **[this model](https://www.youtube.com/watch?v=IVgoBncPw4E)**. We ultimately settled on a pen plotter design (our CAD model can be found **[here](https://cvilleschools.onshape.com/documents/f9e96cad35b00365d59784e5/w/c50bc8ac21633ac130774c6d/e/e97623283331c061e6ee782c)** that uses a belt and two stepper motors to control motion in the x and y directions, and a servo to control z motion.
